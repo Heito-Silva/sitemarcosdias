@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-image: url(../img/ex009.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+}
+
+.conteudo{
+    width: 95%;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#main {
+    background: blanchedalmond;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+h1 {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+p{
+    ;
+}
