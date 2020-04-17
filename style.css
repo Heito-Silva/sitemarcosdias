@@ -1,0 +1,401 @@
+@font-face{
+	font-family: 'Exodus Sharpen';
+	src: url(font/exodus/ExodusDemo-Sharpen.otf);
+}
+
+@font-face{
+	font-family: 'Raleway Regular';
+	src: url(font/raleway/Raleway-Regular.ttf);
+}
+
+@font-face{
+	font-family: 'Raleway Italic';
+	src: url(font/raleway/Raleway-LightItalic.ttf);
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 424vh;
+	background: url(img/mulher.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+p{
+	font-family: 'Raleway Regular';
+}
+
+/*roll*/
+
+.roll{
+	position: fixed;
+	margin-left: 40px;
+	top: 50vh;
+	font-style: italic;
+	list-style: none;
+}
+.roll u a{
+	text-decoration: none;
+	color: white;
+}
+
+.roll u{
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Raleway Regular';
+}
+
+.roll u li{
+	margin-top: 15px;
+}
+
+
+
+/*nav*/
+
+
+.nav{
+	position: fixed;
+	display: flex;
+	width: 100%;
+	height: 9vh;
+	background-color: rgb(255, 255, 255);
+	align-items: center;
+	justify-content: center;
+}
+
+.logo_t{
+	display: flex;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Exodus Sharpen';
+	color: rgb(0, 0, 0);
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-left: 20px;
+	font-weight: lighter;
+	
+}
+
+.content{
+	width: 100%;
+}
+/*HOME*/
+
+
+.home{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.home h1{
+	font-family: 'Exodus Sharpen';
+	margin: 0;
+	font-size: 80px;
+	font-weight: lighter;
+	color: rgb(0, 0, 0);
+
+}
+
+.home h2{
+	font-family: 'Raleway Italic';
+
+	color: rgb(0, 0, 0);
+	font-weight: lighter;
+}
+
+
+.home .texto{
+	display: flex;
+	width: 40vw;
+	height: 70vh;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgb(255, 255, 255);
+}
+
+/*SOBRE*/
+
+.sobre{
+	display: flex;
+	position: static;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.sobre .text{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+	height: 60vh;
+	background-color: rgb(0, 0, 0);
+}
+
+.sobre .text h1{
+	font-family: 'Exodus Sharpen';
+	font-weight: lighter;
+	margin: 0;
+	font-size: 60px;
+}
+
+.sobre .text p{
+	text-align: justify;
+	padding: 40px;
+	margin: 0;
+	font-size: 1.2vw;
+}
+
+/*SERVICOS*/
+
+.servicos{
+	display: flex;
+	position: static;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+
+}
+
+.servicos .text{
+	color:white;
+	display: flex;
+	word-wrap: break-word;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.servicos h1{
+	font-family: 'Exodus Sharpen';
+	font-weight: lighter;
+	margin: 0;
+	font-size: 60px; color: white
+}
+
+.servicos .text p{
+	font-size: 1.2vw;
+}
+
+.servicos .box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60vw;
+	height: 80vh;
+	background-color: black;
+}
+
+.imagens{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	word-wrap: break-word;
+}
+
+.imagens img{
+	width: 8vw;
+	border: 0.5vw solid transparent;
+	border-radius: 50%;
+}
+
+.imagens p{
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
+
+#colunas{
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/*CONTATOS*/
+
+.contatos{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.contatos .box{
+	background: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 60vw;
+	height: 80vh;
+}
+
+.contatos .box h1{
+	font-family: 'Exodus Sharpen';
+	font-weight: lighter;
+	margin: 0;
+	font-size: 60px; color: white
+}
+
+.contatos .box p{
+	font-size: 15px;
+	color: white;
+}
+
+
+
+/*RODAPÉ*/
+
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 24vh;
+	background-color: rgb(0, 0, 0);
+}
+
+footer p{
+	color: white;
+	margin: 4px;
+	
+}
+
+@media(max-width: 1024px){
+
+	.roll{
+		display: none;
+	}
+
+	.nav{
+		background-color: black;
+		margin: 0;
+		padding: 0;
+		
+	}
+	.nav .logo_t{
+		color: white;
+	}
+
+	.home .texto{
+		width: 80%;
+		height: 40%;
+	}
+
+	.sobre .text h1{
+		font-size: 25px;
+	}
+
+	#colunas p{
+		width: 60px;
+		font-size: 10px;
+	}
+
+	.servicos h1{
+		font-size: 25px;
+	}
+
+	.servicos .text p{
+		font-size: 1.5vw;
+	}
+
+	.contatos .box h1{
+		font-size: 40px;
+	}
+}
+
+@media(max-width: 760px){
+	.roll{
+		display: none;
+	}
+	.nav{
+		background-color: black;
+		margin: 0;
+		padding: 0;
+		
+	}
+	.nav .logo_t{
+		color: white;
+	}
+
+	.home .texto h1{
+		font-size: 50px;
+	}
+
+
+	.home .texto{
+		width: 80%;
+		height: 40%;
+	}
+
+	.sobre .text{
+		width: 80%;
+		height: 70%;
+	}
+
+	.sobre .text h1{
+		font-size: 30px;
+	}
+
+	.sobre .text p{
+		padding: 20px;
+		font-size: 14px;
+	}
+
+	.servicos .box{
+		width: 70vw;
+		height: 60vw;
+	}
+
+	#colunas p{
+		width: 60px;
+		font-size: 10px;
+	}
+
+	#colunas{
+
+		flex-wrap: wrap;
+	}
+
+	.servicos h1{
+		font-size: 20px;
+	}
+
+	.servicos .text p{
+		font-size: 10px;
+	}
+
+	.contatos .box h1{
+		font-size: 30px;
+	}
+
+	.contatos .box{
+		height: 40vh;
+	}
+}

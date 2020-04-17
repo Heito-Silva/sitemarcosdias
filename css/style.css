@@ -1,0 +1,98 @@
+
+/*----------------------------------------------------*/
+
+body
+{
+	margin: 0;
+}
+
+.menu
+{
+	/*background-color: #ff68f5;*/
+	background-color: rgba(0,0,0,0.3);
+	padding: 10px 30px 10px 0px;
+}
+
+.minilogo
+{
+	height: 40px;
+	margin: 15px 30px;
+	float: left;
+}
+
+.botoes
+{
+	text-align: right;
+}
+
+.btn-menu
+{
+	border-radius: 5px;
+	height: 70px;
+	width: 100px;
+	border: none;
+	color: white;
+	background-color: transparent;
+	/*background-color: #ff68f5;*/
+}
+
+.btn-menu:hover
+{
+	/*background-color: #ff79f6;*/
+	background-color: rgba(255,255,255,0.3);
+}
+
+header
+{
+	/*background-color: #ff7df6;*/
+	background-image: url("../img/mulher.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	padding-bottom: 155px;
+}
+
+.logo
+{
+	display: block;
+	margin: auto;
+	margin-top: 90px;
+}
+
+.bloco
+{
+	margin-top: 13px;
+}
+
+.direita{
+	margin-right: 50px;
+	
+}
+
+.imagemsection {
+	border-radius: 1000px;
+	height: 200px;
+	width: 200px;
+}
+
+section p img{
+	float: right;
+	height: 150px;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+
+
+/*----------------------------------------------------*/
+
+
+
+/*----------------------------------------------------*/
+
+footer
+{
+	/*background-color: #ff68f5;*/
+	background-color: #ccc;
+	height: 100px;
+}
